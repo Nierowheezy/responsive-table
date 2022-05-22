@@ -9,23 +9,10 @@ const Form = ({ Data }) => {
   const checkBoxOption = formOptions.forms[0].fieldsets[0].fields[2];
   const inputOption = formOptions.forms[0].fieldsets[0].fields[3];
 
-  // console.log(selectOption);
-  // console.log(Data.data.type.name);
-
   return (
     <>
       <div className="container">
         <form className="survey-form">
-          {/* <div className="form-input">
-            <label id="name-label">Name</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Enter your name"
-              className="form-input-size"
-              required
-            />
-          </div> */}
           <div className="form-input">
             <label>Knowledge Item Type</label>
             <select
