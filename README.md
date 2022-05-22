@@ -6,11 +6,19 @@
 
    ![](docs/page1.jpg)
 
+   ![](docs/page1-done.JPG)
+
 2. When you click one of the grid rows, create split view, with a form on the right, similar to the below by loading the form structure from form.json (given in the zip) and dynamically creating the corresponding form/view based on the structure in form.json, and filled with the matching data of that row:
 
    ![](docs/page2.jpg)
 
+   ![](docs/page2-done.JPG)
+
 3. Write a unit test for the right panel form component to verify that it renders correctly
+
+   screen shot of test ran below
+
+   ![](docs/test.JPG)
 
 ## How to run the app
 
