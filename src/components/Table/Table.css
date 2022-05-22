@@ -5,7 +5,7 @@ table {
 
 /* Zebra striping */
 tr:nth-of-type(odd) {
-  background: #eee;
+  background: rgba(255, 255, 255, 0.804);
 }
 
 th {
@@ -15,7 +15,7 @@ th {
 td,
 th {
   padding: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(247, 247, 247);
   text-align: left;
   font-size: 14px;
   cursor: pointer;
@@ -29,16 +29,18 @@ th {
   display: none;
 }
 
-/* 
-  media query
-  */
-@media only screen and (max-width: 760px) {
-  table {
-    overflow-x: auto;
-  }
+.fa-check {
+  color: rgb(0, 181, 0);
+}
 
+.fa-times {
+  color: rgb(181, 15, 0);
+}
+
+/* media query */
+@media only screen and (max-width: 760px) {
   tr {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(236, 236, 236);
   }
 
   .isPrivate {
@@ -56,11 +58,21 @@ th {
   }
 }
 
-/* 
-  media query
-  */
+/* media query*/
 @media only screen and (max-width: 460px) {
-  .hide-private {
+  .tbl-content {
+    overflow-x: auto;
+    padding: 10px;
+  }
+}
+
+/* media query*/
+@media only screen and (max-width: 260px) {
+  .tbl-content {
+    overflow-x: auto;
+  }
+
+  .hide-summary {
     display: none;
   }
 }

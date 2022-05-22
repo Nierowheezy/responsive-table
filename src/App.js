@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <Header title="Dynamic &amp; Responsive Table" />
+      <Header title="" />
       <div className="split">
         <div className="table-flex">
           <Table setData={setData} Data={Data} />
