@@ -12,7 +12,7 @@
 
    ![](docs/page2.jpg)
 
-   ![](docs/page2-done.JPG)
+   ![](docs/page2-done.jpg)
 
 3. Write a unit test for the right panel form component to verify that it renders correctly
 
